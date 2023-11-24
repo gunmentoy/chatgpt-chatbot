@@ -26,13 +26,13 @@ npm install
 
 ## Configuring Tom’s Chatbot
 **To configure Tom’s Chatbot, you need to set up your OpenAI API key:**
-Create a .env file in the root directory of the project.
+- Create a .env file in the root directory of the project.
 Add the following line to the .env file:
 ```
 OPENAI_API_KEY=<your_openai_api_key>
 ```
 
-_**Replace <your_openai_api_key> with your actual OpenAI API key.**_
+_**- Replace <your_openai_api_key> with your actual OpenAI API key.**_
 
 ## Running Tom’s Chatbot
 To run Tom’s Chatbot, follow these steps:
