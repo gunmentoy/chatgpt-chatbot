@@ -10,7 +10,7 @@ async function main() {
   const chatHistory = [];
 
   while (true) {
-    const userInput = readlineSync.question(colors.bold.yellow("You: "));
+    const userInput = readlineSync.question(colors.yellow("You: "));
 
     try {
       // store the user input in the chat history
@@ -25,7 +25,7 @@ async function main() {
       // call the API with user input
       const completion = await openai.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: [{ role: "user", content: userInput }],
+        messages: messages,
       });
 
       // get the response from the API
@@ -37,6 +37,10 @@ async function main() {
       }
 
       console.log(colors.green("Bot: ") + completionText);
+
+      // update history with bot response
+      chatHistory.push(["user", userInput]);
+      chatHistory.push(["assistant", completionText]);
     } catch (error) {
       console.error(colors.red(error));
     }
