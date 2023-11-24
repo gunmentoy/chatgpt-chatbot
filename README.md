@@ -16,7 +16,7 @@ git clone <repository_url>
 
 ### Navigate to the project directory:
 ```
-cd <project_directory>
+cd chatgpt-chatbot
 ```
 
 ### Install the required packages:
