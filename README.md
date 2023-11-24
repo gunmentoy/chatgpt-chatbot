@@ -11,7 +11,7 @@ Welcome to Tom’s Chatbot! This is a simple chatbot application that uses OpenA
 ### To install Tom’s Chatbot, follow these steps:
 Clone the repository:
 ```
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/gunmentoy/chatgpt-chatbot.git)
 ```
 
 ### Navigate to the project directory:
