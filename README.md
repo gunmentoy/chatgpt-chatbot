@@ -3,8 +3,9 @@ Welcome to Tom’s Chatbot! This is a simple chatbot application that uses OpenA
 
 ## Prerequisites
 ### Before you begin, ensure you have met the following requirements:
-You have installed Node.js
-You have an OpenAI API key. **Please note that usage of the OpenAI API is not free, and you will be billed according to their pricing details.**
+- You have installed Node.js
+- You have an OpenAI API key. 
+**Please note that usage of the OpenAI API is not free, and you will be billed according to their pricing details.**
 
 ## Installing Tom’s Chatbot
 ### To install Tom’s Chatbot, follow these steps:
@@ -35,10 +36,10 @@ _**Replace <your_openai_api_key> with your actual OpenAI API key.**_
 
 ## Running Tom’s Chatbot
 To run Tom’s Chatbot, follow these steps:
-Start the application:
+- Start the application:
 ```
 npm start
 ```
 
-You will be greeted by the chatbot. You can start chatting by typing your messages.
+- You will be greeted by the chatbot. You can start chatting by typing your messages.
 To stop the chatbot, type ```exit```.
